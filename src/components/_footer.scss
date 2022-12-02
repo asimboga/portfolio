@@ -1,0 +1,21 @@
+.link-style{
+    a{
+        color: white;
+        padding: 0.4rem;
+        @include transition(1sn);
+
+        &:hover{
+            color: $secondary-color;
+        }
+    }
+}
+
+
+footer.horizantal{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 1rem;
+    @extend .link-style
+}

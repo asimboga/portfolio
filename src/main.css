@@ -1,0 +1,105 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.link-style a, footer.horizantal a {
+  color: white;
+  padding: 0.4rem;
+  transition: all 1sn;
+}
+.link-style a:hover, footer.horizantal a:hover {
+  color: #1e453e;
+}
+
+footer.horizantal {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1rem;
+}
+
+.nav {
+  padding: 1rem;
+  height: 10vh;
+}
+.nav__list {
+  text-align: right;
+}
+.nav__item {
+  display: inline;
+  padding: 1rem;
+}
+.nav__link {
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all 1s;
+}
+.nav__link:hover {
+  color: #1e453e;
+}
+.nav__link--active {
+  color: #1e453e;
+}
+
+.bgImg-container {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right, rgba(44, 124, 7, 0.2), rgba(44, 124, 7, 0.1)), url("../img/background.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.id {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  color: #2c7c07;
+}
+main h1 {
+  width: 100%;
+  font-size: 5rem;
+  padding: 1rem;
+  border-bottom: 1px solid white;
+}
+main h1 span {
+  color: #2c7c07;
+}
+main h2 {
+  color: #eee;
+}
+
+body {
+  font-family: "segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #1e453e;
+  background-color: #2c7c07;
+  line-height: 1;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: #2c7c07;
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=main.css.map */
