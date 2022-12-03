@@ -7,13 +7,13 @@ function Contact() {
             <a href="/" className="nav__link">Home</a>
           </li>
           <li className="nav__item">
-            <a href="about" className="nav__link nav__link--active">About Me</a>
+            <a href="about" className="nav__link ">About Me</a>
           </li>
           <li className="nav__item">
             <a href="projects" className="nav__link">My Projects</a>
           </li>
           <li className="nav__item">
-            <a href="contact" className="nav__link">Contact</a>
+            <a href="contact" className="nav__link nav__link--active">Contact</a>
           </li>
         </ul>
       </nav>
@@ -38,16 +38,10 @@ function Contact() {
 
       <footer className="middle">
         <div className="social-icons">
-          <a href="#">
-            <i className="fab fa-twitter fa-2x"></i>
+          <a href="https://www.linkedin.com/in/asimboga/">
+            <i className="fab fa-linkedin fa-2x"></i>
           </a>
-          <a href="#">
-            <i className="fab fa-facebook fa-2x"></i>
-          </a>
-          <a href="#">
-            <i className="fab fa-instagram fa-2x"></i>
-          </a>
-          <a href="#">
+          <a href="https://github.com/asimboga">
             <i className="fab fa-github fa-2x"></i>
           </a>
         </div>

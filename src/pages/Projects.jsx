@@ -1,3 +1,10 @@
+import movie from "../img/movie-app.png"
+import Firecontack from "../img/Firecontack-app.png"
+import recipe from "../img/recipe-app.png"
+import holidays from "../img/holidays-app.png"
+import netflix from "../img/netflix.png"
+
+
 function Projects() {
     return (
         <>
@@ -8,10 +15,10 @@ function Projects() {
                             <a href="/" className="nav__link">Home</a>
                         </li>
                         <li className="nav__item">
-                            <a href="about" className="nav__link nav__link--active">About Me</a>
+                            <a href="about" className="nav__link">About Me</a>
                         </li>
                         <li className="nav__item">
-                            <a href="projects" className="nav__link">My Projects</a>
+                            <a href="projects" className="nav__link nav__link--active">My Projects</a>
                         </li>
                         <li className="nav__item">
                             <a href="contact" className="nav__link">Contact</a>
@@ -25,35 +32,29 @@ function Projects() {
             <main className="projects">
                 <div className="projects__items">
                     <div className="projects__item">
-                        <img src="src\img\movie-app.png" alt="My Project" />
+                        <a href="https://movie-app2-asim.netlify.app/" target="_blank"><img src={movie} alt="My Project" /></a> 
                     </div>
                     <div className="projects__item">
-                        <img src="src\img\Firecontack-app.png" alt="My Project" />
+                        <img src={Firecontack} alt="My Project" />
                     </div>
                     <div className="projects__item">
-                        <img src="src\img\recipe-app.png" alt="My Project" />
+                        <img src={recipe} alt="My Project" />
                     </div>
                     <div className="projects__item">
-                        <img src="src\img\holidays-app.png" alt="My Project" />
+                        <img src={holidays} alt="My Project" />
                     </div>
                     <div className="projects__item">
-                        <img src="src\img\netflix.png" alt="My Project" />
+                        <img src={netflix} alt="My Project" />
                     </div>
 
                 </div>
             </main>
             <footer className="vertical">
                 <div className="social-icons">
-                    <a href="#">
-                        <i className="fab fa-twitter fa-2x"></i>
+                    <a href="https://www.linkedin.com/in/asimboga/">
+                        <i className="fab fa-linkedin fa-2x"></i>
                     </a>
-                    <a href="#">
-                        <i className="fab fa-facebook fa-2x"></i>
-                    </a>
-                    <a href="#">
-                        <i className="fab fa-instagram fa-2x"></i>
-                    </a>
-                    <a href="#">
+                    <a href="https://github.com/asimboga">
                         <i className="fab fa-github fa-2x"></i>
                     </a>
                 </div>

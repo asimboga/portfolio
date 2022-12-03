@@ -3,6 +3,14 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+
+    .nav__list{
+        padding: 0.7rem;
+    }
+
+    .nav__link{
+        font-size: 24px;
+    }
 }
 
 .about__bio-image{
@@ -10,10 +18,11 @@
     text-align: center;
     h2{
         font-size: 3rem;
-        color: $secondary-color;
+        color: $primary-color;
     }
     p{
         font-size: 1.2rem;
+        font-weight: 500;
         margin: 2rem;
     }
 }
@@ -23,14 +32,20 @@
     &__container{
         width: 70vw;
         margin: 2rem auto;
+
     }
     .about__job{
-        margin: 1rem;
         background: lighten($secondary-color, $amount: 0);
-        padding: 1rem;
+        padding: 0rem 2rem;
         border-bottom: 5px solid;
+
         h2,h3{
             margin: 0.5rem 0rem;
+            font-size: 3rem;
+        }
+        p{
+            text-align: justify;
+            font-size: 1.5rem;
         }
     }
 }
