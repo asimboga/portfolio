@@ -5,51 +5,93 @@
   box-sizing: border-box;
 }
 
-.link-style a, footer.horizantal a {
-  color: white;
-  padding: 0.4rem;
-  transition: all 1sn;
-}
-.link-style a:hover, footer.horizantal a:hover {
-  color: #1e453e;
-}
-
-footer.horizantal {
-  height: 10vh;
+.about-bgImg-container {
+  height: 50vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(44, 124, 7, 0.2), rgba(44, 124, 7, 0.1)), url("./img/background.jpg");
+  background-position: center center;
+  background-size: cover;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
-  padding: 1rem;
+  flex-direction: column;
 }
 
-.nav {
-  padding: 1rem;
-  height: 10vh;
+.about__bio-image {
+  color: #eee;
+  text-align: center;
 }
-.nav__list {
-  text-align: right;
-}
-.nav__item {
-  display: inline;
-  padding: 1rem;
-}
-.nav__link {
-  font-size: 1rem;
-  font-weight: 500;
-  text-transform: uppercase;
-  transition: all 1s;
-}
-.nav__link:hover {
+.about__bio-image h2 {
+  font-size: 3rem;
   color: #1e453e;
 }
-.nav__link--active {
+.about__bio-image p {
+  font-size: 1.2rem;
+  margin: 2rem;
+}
+
+.about {
+  color: #eee;
+}
+.about__container {
+  width: 70vw;
+  margin: 2rem auto;
+}
+.about .about__job {
+  margin: 1rem;
+  background: #1e453e;
+  padding: 1rem;
+  border-bottom: 5px solid;
+}
+.about .about__job h2, .about .about__job h3 {
+  margin: 0.5rem 0rem;
+}
+
+.contact-bgImg-container {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(44, 124, 7, 0.2), rgba(44, 124, 7, 0.1)), url("./img/background.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.contact-bgImg-container nav {
+  height: 40vh;
+}
+
+.contact {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.contact h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.contact__list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  font-size: 1.5rem;
+}
+.contact .text-secondary {
+  color: #eee;
+}
+.contact i {
   color: #1e453e;
+}
+
+.copyright {
+  color: #eee;
 }
 
 .bgImg-container {
   height: 100%;
   width: 100%;
-  background: linear-gradient(to right, rgba(44, 124, 7, 0.2), rgba(44, 124, 7, 0.1)), url("../img/background.jpg");
+  background: linear-gradient(to right, rgba(44, 124, 7, 0.2), rgba(44, 124, 7, 0.1)), url("./img/background.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -85,6 +127,202 @@ main h2 {
   color: #eee;
 }
 
+.projects-bgImg-container {
+  height: 40vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(44, 124, 7, 0.2), rgba(44, 124, 7, 0.1)), url("./img/background.jpg");
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.projects-bgImg-container .projects__bio-image {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.projects__items {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem 5rem;
+  gap: 1rem 0rem;
+}
+.projects__item {
+  width: 100%;
+  cursor: pointer;
+  border-bottom: 5px solid #1e453e;
+  position: relative;
+}
+.projects__item img {
+  width: 100%;
+}
+.projects__item::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #1e453e;
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.projects__item:hover::after {
+  opacity: 0.7;
+}
+
+.link-style a, footer.middle a, footer.vertical a, footer.horizantal a {
+  color: white;
+  padding: 0.4rem;
+  transition: all 1sn;
+}
+.link-style a:hover, footer.middle a:hover, footer.vertical a:hover, footer.horizantal a:hover {
+  color: #1e453e;
+}
+
+footer.horizantal {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1rem;
+}
+
+footer.vertical {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1rem;
+}
+footer.vertical .social-icons {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 1rem;
+}
+footer.vertical .copyright {
+  position: fixed;
+  bottom: 2rem;
+  right: 3rem;
+  transform: rotate(90deg) translate(-3rem, -5rem);
+}
+
+footer.middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1rem;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.nav {
+  padding: 1rem;
+  height: 10vh;
+}
+.nav__list {
+  text-align: right;
+}
+.nav__item {
+  display: inline;
+  padding: 1rem;
+}
+.nav__link {
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all 1s;
+}
+.nav__link:hover {
+  color: #1e453e;
+}
+.nav__link--active {
+  color: #1e453e;
+}
+
+@media screen and (min-width: 0px) {
+  .nav {
+    padding: 0.5rem;
+  }
+  .nav__list {
+    text-align: center;
+  }
+  .nav__item {
+    padding-right: 0.7rem;
+  }
+  .nav .nav__link {
+    font-size: 0.9rem;
+  }
+  .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .contact__list {
+    gap: 2rem 1.2rem;
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 576px) {
+  .nav {
+    padding: 0.7rem;
+  }
+  .nav__list {
+    text-align: right;
+  }
+  .nav__item {
+    padding-right: 1rem;
+  }
+  .nav .nav__link {
+    font-size: 1rem;
+  }
+  .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .contact__list {
+    gap: 2.5rem 2rem;
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .nav__item {
+    padding-right: 1.3rem;
+  }
+  .nav .nav__link {
+    font-size: 1rem;
+  }
+  .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .contact__list {
+    gap: 2.5rem 2rem;
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .nav__item {
+    padding-right: 1.5rem;
+  }
+  .nav .nav__link {
+    font-size: 1.5rem;
+  }
+  .projects_item {
+    width: 50%;
+  }
+  .contact__list {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .projects_item {
+    width: 33%;
+  }
+}
 body {
   font-family: "segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #1e453e;
