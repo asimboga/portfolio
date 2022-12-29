@@ -1,6 +1,6 @@
 function About() {
     return (
-        <>
+        <div className="">
             <div className="about-bgImg-container">
                 <ul className="nav__list">
                     <li className="nav__item">
@@ -64,7 +64,7 @@ function About() {
                 </div>
                 <div className="copyright">&copy; Copyright 2022 : Asım BOĞA</div>
             </footer>
-        </>
+        </div>
     );
 }
 

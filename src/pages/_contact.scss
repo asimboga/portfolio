@@ -1,6 +1,7 @@
 .contact-bgImg-container{
     @include bgImage(100vh, $main-bgImage-path);
 
+
     nav{
         height: 40vh;
     }
@@ -16,6 +17,7 @@
     h2{
         font-size: 3rem;
         margin-bottom: 2rem;
+
     }
 
     &__list{

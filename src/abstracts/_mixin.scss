@@ -7,9 +7,9 @@
     height: $height;
     width: 100%;
     background: linear-gradient(
-        to right,
-        rgba($primary-color, 0.2), 
-        rgba($primary-color, 0.1) 
+        to bottom,
+        rgba($secondary-color, 0.8), 
+        rgba($green-color, 0.1) 
     ),url($url);
     background-position: center center;
     background-size: cover;

@@ -7,11 +7,16 @@
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
 
-@import "./components/footer", "./components/nav", "./components/side", "./components/responsive";
+@import "./components/footer", "./components/nav", "./components/responsive";
 body{
     font-family: $font-family;
     color: $secondary-color;
-    background-color: $primary-color;
+    background-image: radial-gradient($secondary-color, green);
+    // background: radial-gradient(
+    //     to bottom,
+    //     rgba($secondary-color, 0.9), 
+    //     rgba($secondary-color, 0.1) 
+    // );
     line-height: 1;
     height: 100vh;
 }

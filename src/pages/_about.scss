@@ -28,7 +28,12 @@
 }
 
 .about{
-    color: $text-color;
+    h2,h3{
+        color: $primary-color;
+    };
+    p{
+        color: $text-color;
+    }
     &__container{
         width: 70vw;
         margin: 2rem auto;
@@ -37,7 +42,7 @@
     .about__job{
         background: lighten($secondary-color, $amount: 0);
         padding: 0rem 2rem;
-        border-bottom: 5px solid;
+        border-bottom: 5px solid $text-color;
 
         h2,h3{
             margin: 0.5rem 0rem;
