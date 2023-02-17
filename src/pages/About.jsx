@@ -1,3 +1,5 @@
+import developer from "../img/developer.png"
+
 function About() {
     return (
         <div className="">
@@ -17,9 +19,10 @@ function About() {
                     </li>
                 </ul>
                 <div className="about__bio-image">
-                    <h2>BIOGRAPHY</h2>
+                    <img src={developer} alt="My Project" />
+                    <h2>ASIM BOĞA</h2>
                     <p>
-                        A front-end developer with +3 years of IT experience and 1 year of writing code as a front-end developer, <br /> capable of developing complex solutions, creating responsive designs, strong creative thinking skills and high energy. <br /> The ability to create effective algorithms, interact positively and communicate appropriately with team members. <br /> Quickly grasps new technologies and concepts to develop innovative and creative solutions to problems. <br /> Always eager to learn about various technologies, tools and libraries. <br /> Particularly interested in Frontend/Web Development, HTML, CSS, JS, React. Excited to learn and improve new things.
+                        A front-end developer with +3 years of IT experience and 1 year of writing code as a front-end developer, <br /> capable of developing complex solutions, creating responsive designs, strong creative thinking skills and high energy. <br /> The ability to create effective algorithms, interact positively and communicate appropriately with team members. <br /> Quickly grasps new technologies and concepts to develop innovative and creative solutions to problems. <br /> Always eager to learn about various technologies, tools and libraries. <br /> Particularly interested in Frontend/Web Development, HTML, CSS, JS, React. <br /> Excited to learn and improve new things.
                     </p>
                 </div>
             </div>
@@ -28,20 +31,19 @@ function About() {
                     <div className="about__job">
                         <h2 className="text-secondary">2021 - ∞</h2>
                         <h3>CERTIFICATIONS</h3>
-                        <p>●	Clarusway ITF Course Certificate      October 2022</p> <br />
-                        <p>●	Clarusway Front-End Developer Course Certificate      October 2022</p>
+                        <p>●	Clarusway Front-End Developer Course Certificate </p>
                         <br />
-                        <p>●	Clarusway React Developer Course Certificate						         August 2022
+                        <p>●	Clarusway React Developer Course Certificate
                         </p><br />
                         <p>
-                            ●	Clarusway HTML & CSS Developer Course Certificate					             June 2022</p><br />
+                            ●	Clarusway HTML & CSS Developer Course Certificate					             </p><br />
                         <p>
-                            ●	Clarusway Javascript Developer Course Certificate					             June 2022</p><br />
+                            ●	Clarusway Javascript Developer Course Certificate					             </p><br />
+                        <p>●	Clarusway ITF Course Certificate      </p> <br />
 
                     </div>
                     <div className="about__job">
                         <h2 className="text-secondary">2013 - 2020</h2>
-                        <h3>Ministry of National Defense, TR</h3>
                         <h3>Human Resources Positions</h3>
                         <p>●	Planning and management of various projects and activities such as personnel recruitment, staff planning, personnel evaluation were carried out.</p>
                         <br />
