@@ -4,20 +4,6 @@ function About() {
     return (
         <div className="">
             <div className="about-bgImg-container">
-                <ul className="nav__list">
-                    <li className="nav__item">
-                        <a href="/" className="nav__link">Home</a>
-                    </li>
-                    <li className="nav__item">
-                        <a href="about" className="nav__link nav__link--active">About Me</a>
-                    </li>
-                    <li className="nav__item">
-                        <a href="projects" className="nav__link">My Projects</a>
-                    </li>
-                    <li className="nav__item">
-                        <a href="contact" className="nav__link">Contact</a>
-                    </li>
-                </ul>
                 <div className="about__bio-image">
                     <img src={developer} alt="My Project" />
                     <h2>ASIM BOĞA</h2>
@@ -55,17 +41,6 @@ function About() {
                     </div>
                 </div>
             </main>
-            <footer className="vertical">
-                <div className="social-icons">
-                    <a href="https://www.linkedin.com/in/asimboga/">
-                        <i className="fab fa-linkedin fa-2x"></i>
-                    </a>
-                    <a href="https://github.com/asimboga">
-                        <i className="fab fa-github fa-2x"></i>
-                    </a>
-                </div>
-                <div className="copyright">&copy; Copyright 2022 : Asım BOĞA</div>
-            </footer>
         </div>
     );
 }
