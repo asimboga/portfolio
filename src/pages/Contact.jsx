@@ -14,7 +14,7 @@ function Contact() {
             </div>
             <div className="contact__item">
               <i className="fas fa-map-marker-alt"> Address</i>
-              <div className="text-secondary">Kepez/Çanakkale</div>
+              <div className="text-secondary">Çanakkale</div>
             </div>
           </div>
         </main>

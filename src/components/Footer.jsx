@@ -1,9 +1,25 @@
 import React from 'react'
+import $ from "jquery";
+
 
 const Footer = () => {
+
+    $(function () {
+        $(document).on("scroll", function() {
+            if($(this).scrollTop()>=50){
+                $("footer").removeClass("horizantal")
+                $("footer").addClass("vertical")
+            }else{
+                $("footer").removeClass("vertical")
+                $("footer").addClass("horizantal")
+            }
+        });
+    });
+
+
     return (
         <>
-            <footer className="horizantal">
+            <footer className="footer horizantal">
                 <div className="social-icons">
                     <a href="https://www.linkedin.com/in/asimboga/">
                         <i className="fab fa-linkedin fa-2x"></i>

@@ -11,15 +11,9 @@
 }
 
 
-footer.horizantal{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
+.horizantal{
     @extend .link-style;
     .social-icons{
-        display: flex;
-        flex-direction: row;
         position: fixed;
         bottom: 1rem;
     }
@@ -31,11 +25,8 @@ footer.horizantal{
 }
 
 
-footer.vertical{
+.vertical{
     height: 10vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
     padding: 1rem;
     @extend .link-style;
     .social-icons{
@@ -50,16 +41,4 @@ footer.vertical{
         right: 1rem;
         transform: rotate(90deg) translate(-3rem, -5rem);
     }
-}
-
-footer.middle{
-    // height: 0vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 1rem;
-    gap: 1rem;
-    margin-top: 3rem;
-    @extend .link-style;
 }

@@ -1,8 +1,8 @@
 .projects-bgImg-container {
-    @include bgImage(40vh, $main-bgImage-path);
+    @include bgImage(80vh, $main-bgImage-path);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
 
     .projects__bio-image {
         margin-top: 50px;

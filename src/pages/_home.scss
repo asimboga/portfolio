@@ -1,5 +1,8 @@
+.home{
+    overflow: hidden
+}
 .bgImg-container{
-    @include bgImage(100%, $main-bgImage-path);
+    @include bgImage(90vh, $main-bgImage-path);
 
 }
 
