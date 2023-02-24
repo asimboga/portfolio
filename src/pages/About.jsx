@@ -16,7 +16,7 @@ function About() {
                 <div className="about__container">
                     <div className="about__job">
                         <h2 className="text-secondary">2021 - ∞</h2>
-                        <h3>CERTIFICATIONS</h3>
+                        <h3>Certifications</h3>
                         <p>●	Clarusway Front-End Developer Course Certificate </p>
                         <br />
                         <p>●	Clarusway React Developer Course Certificate

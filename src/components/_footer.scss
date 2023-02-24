@@ -12,12 +12,10 @@
 
 
 footer.horizantal{
-    height: 10vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 1rem;
     @extend .link-style;
     .social-icons{
         display: flex;
@@ -31,6 +29,7 @@ footer.horizantal{
         right: 3rem;
     }
 }
+
 
 footer.vertical{
     height: 10vh;

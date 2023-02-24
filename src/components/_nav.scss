@@ -1,16 +1,32 @@
 .nav{
+    // position: fixed;
     padding: 1rem;
     height: 10vh;
+    position: relative;
 
+    #burger{
+        display: none;
+
+
+    }
+
+    .nav__bg{
+        font-size: 2rem;
+        color: white;
+        float: right;
+        // line-height: 80px;
+        margin-right: 2rem;
+        display: none;
+    }
     &__list{
-        text-align: right;
+        text-align: right; 
     }
     &__item{
         display: inline;
         padding: 1rem;
     }
     &__link{
-        font-size: 1rem;
+        font-size: 1.5rem;
         font-weight: 500;
         text-transform: uppercase;
         @include transition(1s);
@@ -24,4 +40,13 @@
 
 .active{
     color: $secondary-color;
+}
+
+
+.nav #burger:checked ~ ul{
+    left: 0;
+}
+
+.nav #burger:checked ~ label.nav__bg i::before{
+    content: "\f00d";
 }
