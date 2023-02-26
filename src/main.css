@@ -243,10 +243,6 @@ main h2 {
   right: 3rem;
 }
 
-.vertical {
-  height: 10vh;
-  padding: 1rem;
-}
 .vertical .social-icons {
   display: flex;
   flex-direction: column;

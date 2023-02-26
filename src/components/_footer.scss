@@ -26,8 +26,6 @@
 
 
 .vertical{
-    height: 10vh;
-    padding: 1rem;
     @extend .link-style;
     .social-icons{
         display: flex;
