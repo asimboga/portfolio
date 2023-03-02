@@ -18,8 +18,10 @@
         bottom: 1rem;
     }
     .copyright{
+        justify-content: center;
+        align-items: center;
         position: fixed;
-        bottom: 2rem;
+        bottom: 1.5rem;
         right: 3rem;
     }
 }
@@ -35,8 +37,9 @@
     }
     .copyright{
         position: fixed;
-        bottom: 4rem;
-        right: 1rem;
+        justify-content:left;
+        bottom: 5rem;
+        right: -1rem;
         transform: rotate(90deg) translate(-3rem, -5rem);
     }
 }

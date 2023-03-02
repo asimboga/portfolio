@@ -1,31 +1,3 @@
-@include media-xsm{
-    .nav{
-        padding: 0.5rem;
-        &__list{
-            text-align: center;
-        }
-        &__item{
-            padding-right: 0.7rem;
-        }
-
-
-        .nav__link{
-            font-size: 0.9rem;
-        }
-    }
-
-    .contact{
-        h2{
-            font-size: 2rem;
-            margin-bottom: 1rem;
-        }
-        &__list{
-            gap: 2rem 1.2rem;
-            font-size: 1.2rem;
-        }
-    }
-};
-
 @include media-sm{
     .nav{
         padding: 0.7rem;
@@ -170,7 +142,7 @@
         background: $green-color;
         width: 100%;
         height: 100%;
-        top: 60px;
+        top: 50px;
         display: flex;
         flex-direction: column;
         align-items: center;

@@ -8,7 +8,7 @@
 .about-bgImg-container {
   height: 100%;
   width: 100%;
-  background: linear-gradient(to bottom, rgba(30, 69, 62, 0.8), rgba(44, 124, 7, 0.1)), url("./img/background.jpg");
+  background: linear-gradient(to bottom, rgba(29, 64, 47, 0.8), rgba(47, 115, 115, 0.1)), url("./img/background.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -18,13 +18,14 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  color: #C0C0C0;
+  color: #DFEDF2;
   text-align: center;
 }
 .about__bio-image h2 {
-  max-width: 20%;
-  font-size: 3rem;
-  color: #C0C0C0;
+  margin-top: 10px;
+  max-width: 200px;
+  font-size: 2rem;
+  color: #DFEDF2;
 }
 .about__bio-image p {
   max-width: 90%;
@@ -43,8 +44,11 @@
   display: flex;
   flex-direction: column;
 }
-.about h2, .about h3 {
-  color: #C0C0C0;
+.about h2,
+.about h3 {
+  max-width: 100%;
+  word-wrap: break-word;
+  color: #DFEDF2;
 }
 .about p {
   color: #eee;
@@ -55,11 +59,12 @@
   margin: 2rem auto;
 }
 .about .about__job {
-  background: #1e453e;
+  background: #1d402f;
   padding: 0rem 2rem;
   border-bottom: 5px solid #eee;
 }
-.about .about__job h2, .about .about__job h3 {
+.about .about__job h2,
+.about .about__job h3 {
   margin: 0.5rem 0rem;
   font-size: 3rem;
 }
@@ -71,7 +76,7 @@
 .contact-bgImg-container {
   height: 90vh;
   width: 100%;
-  background: linear-gradient(to bottom, rgba(30, 69, 62, 0.8), rgba(44, 124, 7, 0.1)), url("./img/background.jpg");
+  background: linear-gradient(to bottom, rgba(29, 64, 47, 0.8), rgba(47, 115, 115, 0.1)), url("./img/background.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -104,21 +109,17 @@
   color: #eee;
 }
 .contact i {
-  color: #C0C0C0;
+  color: #DFEDF2;
 }
 
 .copyright {
   color: #eee;
 }
 
-.home {
-  overflow: hidden;
-}
-
 .bgImg-container {
   height: 90vh;
   width: 100%;
-  background: linear-gradient(to bottom, rgba(30, 69, 62, 0.8), rgba(44, 124, 7, 0.1)), url("./img/background.jpg");
+  background: linear-gradient(to bottom, rgba(29, 64, 47, 0.8), rgba(47, 115, 115, 0.1)), url("./img/background.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -138,7 +139,7 @@ main {
   justify-content: center;
   text-align: center;
   padding: 1rem;
-  color: #C0C0C0;
+  color: #DFEDF2;
 }
 main h1 {
   width: 100%;
@@ -147,7 +148,7 @@ main h1 {
   border-bottom: 1px solid white;
 }
 main h1 span {
-  color: #C0C0C0;
+  color: #DFEDF2;
 }
 main h2 {
   color: #eee;
@@ -156,7 +157,7 @@ main h2 {
 .projects-bgImg-container {
   height: 80vh;
   width: 100%;
-  background: linear-gradient(to bottom, rgba(30, 69, 62, 0.8), rgba(44, 124, 7, 0.1)), url("./img/background.jpg");
+  background: linear-gradient(to bottom, rgba(29, 64, 47, 0.8), rgba(47, 115, 115, 0.1)), url("./img/background.jpg");
   background-position: center center;
   background-size: cover;
   display: flex;
@@ -170,7 +171,7 @@ main h2 {
   margin-bottom: 1rem;
 }
 .projects-bgImg-container .projects__bio-image h2 {
-  color: #C0C0C0;
+  color: #DFEDF2;
 }
 
 .projects__items {
@@ -230,7 +231,7 @@ main h2 {
   transition: all 1sn;
 }
 .link-style a:hover, .vertical a:hover, .horizantal a:hover {
-  color: #1e453e;
+  color: #1D402F;
 }
 
 .horizantal .social-icons {
@@ -238,8 +239,10 @@ main h2 {
   bottom: 1rem;
 }
 .horizantal .copyright {
+  justify-content: center;
+  align-items: center;
   position: fixed;
-  bottom: 2rem;
+  bottom: 1.5rem;
   right: 3rem;
 }
 
@@ -251,8 +254,9 @@ main h2 {
 }
 .vertical .copyright {
   position: fixed;
-  bottom: 4rem;
-  right: 1rem;
+  justify-content: left;
+  bottom: 5rem;
+  right: -1rem;
   transform: rotate(90deg) translate(-3rem, -5rem);
 }
 
@@ -260,6 +264,7 @@ main h2 {
   padding: 1rem;
   height: 10vh;
   position: relative;
+  background-color: #2F7373;
 }
 .nav #burger {
   display: none;
@@ -285,11 +290,11 @@ main h2 {
   transition: all 1s;
 }
 .nav__link:hover {
-  color: #1e453e;
+  color: #1D402F;
 }
 
 .active {
-  color: #1e453e;
+  color: #1D402F;
 }
 
 .nav #burger:checked ~ ul {
@@ -300,28 +305,6 @@ main h2 {
   content: "\f00d";
 }
 
-@media screen and (max-width: 0px) {
-  .nav {
-    padding: 0.5rem;
-  }
-  .nav__list {
-    text-align: center;
-  }
-  .nav__item {
-    padding-right: 0.7rem;
-  }
-  .nav .nav__link {
-    font-size: 0.9rem;
-  }
-  .contact h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  .contact__list {
-    gap: 2rem 1.2rem;
-    font-size: 1.2rem;
-  }
-}
 @media screen and (max-width: 576px) {
   .nav {
     padding: 0.7rem;
@@ -360,10 +343,10 @@ main h2 {
     font-size: 1.5rem;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 992px) {
   .nav {
     z-index: 999;
-    background-color: #1e453e;
+    background-color: #1D402F;
     position: fixed;
     display: block;
     min-width: 100%;
@@ -378,7 +361,7 @@ main h2 {
   }
   .nav .nav__list {
     position: fixed;
-    background: #2c7c07;
+    background: #2F7373;
     width: 100%;
     height: 100%;
     top: 60px;
@@ -408,7 +391,7 @@ main h2 {
     transition: all 1s;
   }
   .nav .nav__link:hover {
-    color: #1e453e;
+    color: #1D402F;
   }
   .projects_item {
     width: 50%;
@@ -417,14 +400,14 @@ main h2 {
     flex-direction: row;
   }
 }
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1200px) {
   .projects_item {
     width: 33%;
   }
 }
 .nav.responsive {
   z-index: 999;
-  background-color: #1e453e;
+  background-color: #1D402F;
   position: fixed;
   display: block;
   min-width: 100%;
@@ -439,10 +422,10 @@ main h2 {
 }
 .nav.responsive .nav__list {
   position: fixed;
-  background: #2c7c07;
+  background: #2F7373;
   width: 100%;
   height: 100%;
-  top: 60px;
+  top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -469,20 +452,20 @@ main h2 {
   transition: all 1s;
 }
 .nav.responsive .nav__link:hover {
-  color: #1e453e;
+  color: #1D402F;
 }
 
 body {
   font-family: "segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #1e453e;
-  background-image: radial-gradient(#1e453e, green);
+  color: #1D402F;
+  background-image: radial-gradient(#1D402F, green);
   line-height: 1;
   height: 100vh;
 }
 
 a {
   text-decoration: none;
-  color: #C0C0C0;
+  color: #DFEDF2;
 }
 
 h1, h2, h3 {

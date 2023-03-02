@@ -13,13 +13,10 @@
     ),url($url);
     background-position: center center;
     background-size: cover;
+    
 };
 
-@mixin media-xsm {
-    @media screen and (max-width: 0px){
-        @content
-    }
-};
+
 @mixin media-sm {
     @media screen and (max-width: 576px){
         @content;
@@ -31,12 +28,12 @@
     }
 };
 @mixin media-lg {
-    @media screen and (max-width: 1024px){
+    @media screen and (max-width: 992px){
         @content;
     }
 };
 @mixin media-xl {
-    @media screen and (max-width: 1600px){
+    @media screen and (max-width: 1200px){
         @content;
     }
 };
