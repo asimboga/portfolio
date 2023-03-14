@@ -8,9 +8,8 @@
 .about-bgImg-container {
   height: 100%;
   width: 100%;
-  background: linear-gradient(to bottom, rgba(29, 64, 47, 0.8), rgba(47, 115, 115, 0.1)), url("./img/background.jpg");
+  background: linear-gradient(to bottom, rgba(29, 64, 47, 0.7), rgba(47, 115, 115, 0.1)), url("./img/background.jpg");
   background-position: center center;
-  background-size: cover;
 }
 
 .about__bio-image {
@@ -76,9 +75,8 @@
 .contact-bgImg-container {
   height: 90vh;
   width: 100%;
-  background: linear-gradient(to bottom, rgba(29, 64, 47, 0.8), rgba(47, 115, 115, 0.1)), url("./img/background.jpg");
+  background: linear-gradient(to bottom, rgba(29, 64, 47, 0.7), rgba(47, 115, 115, 0.1)), url("./img/background.jpg");
   background-position: center center;
-  background-size: cover;
 }
 
 .contact-bgImg-container {
@@ -119,9 +117,8 @@
 .bgImg-container {
   height: 90vh;
   width: 100%;
-  background: linear-gradient(to bottom, rgba(29, 64, 47, 0.8), rgba(47, 115, 115, 0.1)), url("./img/background.jpg");
+  background: linear-gradient(to bottom, rgba(29, 64, 47, 0.7), rgba(47, 115, 115, 0.1)), url("./img/background.jpg");
   background-position: center center;
-  background-size: cover;
 }
 
 .id {
@@ -157,9 +154,8 @@ main h2 {
 .projects-bgImg-container {
   height: 80vh;
   width: 100%;
-  background: linear-gradient(to bottom, rgba(29, 64, 47, 0.8), rgba(47, 115, 115, 0.1)), url("./img/background.jpg");
+  background: linear-gradient(to bottom, rgba(29, 64, 47, 0.7), rgba(47, 115, 115, 0.1)), url("./img/background.jpg");
   background-position: center center;
-  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -458,7 +454,7 @@ main h2 {
 body {
   font-family: "segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #1D402F;
-  background-image: radial-gradient(#1D402F, green);
+  background-image: radial-gradient(#1D402F, #2F7373);
   line-height: 1;
   height: 100vh;
 }

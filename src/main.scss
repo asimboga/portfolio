@@ -11,7 +11,7 @@
 body{
     font-family: $font-family;
     color: $secondary-color;
-    background-image: radial-gradient($secondary-color, green);
+    background-image: radial-gradient($secondary-color, $green-color);
     // background: radial-gradient(
     //     to bottom,
     //     rgba($secondary-color, 0.9), 
