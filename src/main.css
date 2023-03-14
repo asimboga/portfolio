@@ -10,6 +10,7 @@
   width: 100%;
   background: linear-gradient(to bottom, rgba(29, 64, 47, 0.7), rgba(47, 115, 115, 0.1)), url("./img/background.jpg");
   background-position: center center;
+  background-size: cover;
 }
 
 .about__bio-image {
@@ -73,10 +74,11 @@
 }
 
 .contact-bgImg-container {
-  height: 90vh;
+  height: calc(100vh - 56px);
   width: 100%;
   background: linear-gradient(to bottom, rgba(29, 64, 47, 0.7), rgba(47, 115, 115, 0.1)), url("./img/background.jpg");
   background-position: center center;
+  background-size: cover;
 }
 
 .contact-bgImg-container {
@@ -115,10 +117,11 @@
 }
 
 .bgImg-container {
-  height: 90vh;
+  height: calc(100vh - 56px);
   width: 100%;
   background: linear-gradient(to bottom, rgba(29, 64, 47, 0.7), rgba(47, 115, 115, 0.1)), url("./img/background.jpg");
   background-position: center center;
+  background-size: cover;
 }
 
 .id {
@@ -152,10 +155,11 @@ main h2 {
 }
 
 .projects-bgImg-container {
-  height: 80vh;
+  height: calc(50vh - 56px);
   width: 100%;
   background: linear-gradient(to bottom, rgba(29, 64, 47, 0.7), rgba(47, 115, 115, 0.1)), url("./img/background.jpg");
   background-position: center center;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -258,7 +262,6 @@ main h2 {
 
 .nav {
   padding: 1rem;
-  height: 10vh;
   position: relative;
   background-color: #2F7373;
 }
@@ -359,8 +362,8 @@ main h2 {
     position: fixed;
     background: #2F7373;
     width: 100%;
-    height: 100%;
-    top: 60px;
+    min-height: calc(100vh - 55px);
+    top: 55px;
     display: flex;
     flex-direction: column;
     align-items: center;
